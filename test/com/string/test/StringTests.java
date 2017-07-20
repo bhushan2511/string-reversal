@@ -21,5 +21,12 @@ public class StringTests {
 
         assertEquals("", str.stringReverse(""));
     }
+    
+    @Test
+    public void reverseStringSecond() {
+        StringReverse str = new StringReverse();
+
+        assertEquals("zab raboof", str.stringReverse("foobar baz"));
+    }
 
 }
